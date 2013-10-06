@@ -17,4 +17,4 @@ RUN /bin/docker-postgres-init-devdb
 
 
 CMD /bin/docker-postgres-dev-server
-EXPOSE 5432
+EXPOSE :5432
