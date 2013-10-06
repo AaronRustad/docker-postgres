@@ -1,5 +1,5 @@
 FROM   ubuntu:precise
-MAINTAINER   Ted Dziuba "tdziuba@ebay.com"
+MAINTAINER   Aaron Rustad "arustad@anassina.com"
 
 RUN apt-get update
 RUN apt-get install -y wget language-pack-en
